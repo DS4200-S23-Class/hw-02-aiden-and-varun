@@ -1,0 +1,98 @@
+/* Styling goes in this file */
+
+/* Make the font for the whole page Arial */
+body {
+	font-family: Arial;
+}
+
+/* Center the Header */
+h1, tr {
+	text-align: center;
+}
+
+/* Make the table take up most of the screen, remove borders, and have it in the center of the page */
+table{
+	width: 90%;
+	border-collapse: collapse;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Add border to bottom of each row */
+th, td {
+  border-bottom: 1px solid #ddd;
+}
+
+/* Add blue color to top row */
+th {
+  background-color: skyblue;
+  color: black;
+}
+
+/* Left Align the header and lists about the data types */
+h2, ul {
+	text-align: left;
+}
+
+/* Create flex comtainer for the images */
+#pictures {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	align-content: center;
+}
+
+#pictures img {
+	margin-left: auto;
+	margin-right: auto;
+
+	/*Make Image grow and shrink dynamically*/
+	max-width: 100%;
+    height: auto;
+    width: 1100px; 
+}
+
+/* Make text below the picutres align to the left and be blue */
+p {
+	text-align: left;
+	color: darkblue;
+}
+
+/* Create flex comtainer for the shapes */
+#decoration {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	align-content: center;
+}
+
+/* Adjust the color and display of the circles */
+circle {
+	fill: green;
+	opacity: 50%;
+}
+
+/* Add hover effects to the shapes */
+circle:hover {
+	stroke: black;
+	stroke-width: 5px;
+}
+
+/* Adjust the color and display of the rectangles */
+rect {
+	fill: darkgreen;
+	stroke: black;
+	stroke-width: 5px;
+}
+
+/* Add hover effects to the shapes */
+rect:hover {
+	fill: lightblue;
+}
+
+/* Center the header for Acknowledgements*/
+h3 {
+	text-align: center;
+}
